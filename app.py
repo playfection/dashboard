@@ -72,7 +72,7 @@ with col4:
                 title='Average Revenue by Day of Week',
                 color='total_revenue',
                 color_continuous_scale='Viridis')
-    st.plotty_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True)
 
 st.subheader("Revenue Heatmap by Category and Day")
 revenue_heatmap = df.pivot_table(
